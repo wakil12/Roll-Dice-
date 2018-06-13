@@ -27,7 +27,7 @@ const diceTwo = {
 let button = document.querySelector('button').addEventListener('click', event => {
   event.preventDefault();
   let diceOneNumber = dice.roll();
-  let containerOne = document.querySelector(".dice-01");
+  // let containerOne = document.querySelector(".dice-01");
 
 
   let newClass = "img-0"+diceOneNumber;
@@ -39,7 +39,7 @@ let button = document.querySelector('button').addEventListener('click', event =>
 
 
 let diceTwoNumber = dice.roll();
-let containerTwo = document.querySelector(".dice-02");
+// let containerTwo = document.querySelector(".dice-02");
 
 
 let newClassTwo = "img-0"+diceTwoNumber;
