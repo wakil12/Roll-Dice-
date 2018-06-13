@@ -49,3 +49,4 @@ let elmTwo = document.getElementById("dice-02");
      elmTwo.className = newClassTwo;
 }
 });
+//just a comment to have one commit
